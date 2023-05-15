@@ -2,7 +2,7 @@ import Head from "next/head";
 import { createClient } from "contentful";
 import CountryCard from "@/components/CountryCard";
 
-export async function getServerSideProps(){
+export async function getStaticProps(){
   
   const client = createClient({
     space: process.env.CONTENTFUL_SPACE_ID,
