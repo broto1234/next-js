@@ -40,7 +40,6 @@ export async function getStaticProps({ params }) {
 }
 
 const CountryDetails = ({ data }) => {
-  console.log(data)
   const { detail, capital, largeImage, population, officialLanguage } = data.fields
   
   return (    
