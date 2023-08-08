@@ -2,7 +2,7 @@ This is a Next.js project with Tailwind CSS and Contentful headless CMS hosted o
 
 ## Getting Started
 
-First, run the development server:
+First, run the development server :
 
 ```bash
 npm run dev
